@@ -19,10 +19,8 @@ export default function CodeReviewPage() {
 
   async function reviewCode() {
     try {
-      const response =await axios.post(
-  'https://ai-code-review-1-03yw.onrender.com/ai/get-review',
-  { code }
-);
+      const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/ai/get-review`, { code });
+
 
 
 
