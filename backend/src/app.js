@@ -7,7 +7,7 @@ const app = express();
 // CORS setup for frontend
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3001'], // NO trailing slash
+  origin: ['https://ai-code-review-rosy.vercel.app'], // NO trailing slash
   methods: ["GET", "POST"],
   credentials: true
 }));
