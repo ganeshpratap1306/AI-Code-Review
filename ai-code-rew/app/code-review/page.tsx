@@ -19,10 +19,24 @@ export default function CodeReviewPage() {
 
   async function reviewCode() {
     try {
-      const response = await axios.post(
-        'https://ai-code-review-1-03yw.onrender.com/ai/get-review',
-        { code }
-      );
+      const response =await axios.post(
+  'https://ai-code-review-1-03yw.onrender.com/ai/get-review',
+  { code }
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       setReview(response.data.review);
     } catch (err) {
       console.error('Code review error', err);
