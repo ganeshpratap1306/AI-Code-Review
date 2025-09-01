@@ -34,7 +34,6 @@ export default function CodeReviewPage() {
 
 
 
-
       setReview(response.data.review);
     } catch (err) {
       console.error('Code review error', err);
