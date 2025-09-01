@@ -16,7 +16,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center text-gray-400">
           © 2025 All Rights Reserved — Developed by{" "}
-          <span className="text-white font-medium">Ganesh Pratap Vishwakarma </span>
+          <span className="text-white font-medium">Ganesh Pratap Vishwakarma, Abhijeet Patel</span>
         </div>
 
        
