@@ -20,7 +20,7 @@ export default function CodeReviewPage() {
   async function reviewCode() {
     try {
       const response = await axios.post(
-        'http://localhost:3000/ai/get-review',
+        'https://ai-code-review-1-03yw.onrender.com/ai/get-review',
         { code }
       );
       setReview(response.data.review);
